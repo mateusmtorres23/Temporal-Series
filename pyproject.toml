@@ -4,4 +4,9 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "feature-engine>=1.9.4",
+    "featuretools>=1.31.0",
+    "scikit-learn>=1.9.0",
+    "tsfresh>=0.21.2",
+]
